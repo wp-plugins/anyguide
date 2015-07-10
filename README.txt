@@ -41,6 +41,12 @@ Please use a whitespace to separate 2 shortcodes.
 
 More questions ? [Drop a mail](http://support.anyguide.com/customer/portal/emails/new/ "Anyguide Support") and we'll get back to you shortly.
 
+== Screenshots ==
+
+1. Easily create a Snippet with only your Slug and Token.
+2. You can create as many Snippets as you want and manage them on your Dashboard.
+3. Insert your Anyguide Snippet at anytime right from your Editor.
+
 
 == Changelog ==
 
