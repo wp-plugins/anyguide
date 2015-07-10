@@ -1,0 +1,12 @@
+.AnyNotification {
+  padding: 10px;
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .AnyNotification .Message {
+    color: #34495e;
+    font-weight: bold;
+    font-size: 16px; }
+  .AnyNotification .Close {
+    color: #34495e;
+    cursor: pointer; }
