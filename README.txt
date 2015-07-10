@@ -21,7 +21,7 @@ Anyguide integrates seamlessly into WordPress and does not force customers off t
 
 = About =
 
-This Wordpress Plugin is developed and maintained by [AnyGUide](http://anyguide.com/ "anyguide.com"). For any support, please don't hesitate to [contact us](http://support.anyguide.com/customer/portal/emails/new/ "AnyGuide Support").
+This Wordpress Plugin is developed and maintained by [AnyGuide](http://anyguide.com/ "anyguide.com"). For any support, please don't hesitate to [contact us](http://support.anyguide.com/customer/portal/emails/new/ "AnyGuide Support").
 
 == Installation ==
 
