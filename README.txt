@@ -2,8 +2,8 @@
 
 Tags: tour booking wordpress plugin, wordpress plugin booking, wordpress reservation plugin, anyguide, anyguide wordpress plugin, reservation plugin, booking system wordpress, book tours online, online booking system, booking, reservation, anyguide snippet
 Requires at least: 2.8
-Tested up to: 4.2.2
-Stable tag: 1.1
+Tested up to: 4.2.3
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 This Plugin provides a powerful real-time booking interface - right within your existing WordPress site.
