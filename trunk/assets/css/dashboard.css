@@ -1,0 +1,352 @@
+.any-footer {
+  padding-top: 0;
+  margin-top: 0;
+  background-image: none;
+  position: relative;
+  padding: 10em 0 4.28571em;
+  text-align: center;
+  background: #f9f9f9; }
+  .any-footer nav {
+    max-width: 100%; }
+    .any-footer nav.primary {
+      padding: 25px 15px 10px 15px;
+      border-bottom: 1px solid #eee; }
+      .any-footer nav.primary .a8c-attribution {
+        margin: 0;
+        padding: 0 6px;
+        color: #bbb;
+        font-size: 0.78571em;
+        text-transform: uppercase; }
+    .any-footer nav.secondary {
+      padding: 10px 15px 0 15px; }
+    .any-footer nav a {
+      padding: 4px 6px;
+      color: #999;
+      display: inline-block; }
+
+.add-new-snippet-button {
+  display: inline-block;
+  width: 200px;
+  padding: 6px;
+  color: #8ec63f;
+  font-weight: bold;
+  border: 2px solid #8ec63f;
+  border-radius: 3px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  box-shadow: none;
+  background-color: transparent;
+  font-family: 'Titillium Web', sans-serif;
+  transition: background-color 0.2s ease-out, border-color 0.2s ease-out; }
+
+.add-new-snippet-button:hover, .add-new-snippet-button:active {
+  outline: none;
+  text-decoration: none;
+  background-color: #fff;
+  /* fallback */
+  background-color: #8ec63f;
+  box-shadow: none;
+  border-color: #fff;
+  /* fallback */
+  border-color: #8ec63f;
+  color: #fff;
+  transition: background-color 0.2s ease-in, border-color 0.2s ease-in; }
+
+.radios .radio {
+  background-color: transparent;
+  border: 1px dashed #d9d9d9;
+  border-radius: 4px;
+  color: #ccc;
+  display: inline-block;
+  margin-right: 5px;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  cursor: pointer; }
+  .radios .radio i {
+    font-size: 18px; }
+
+.radios input[type=radio] {
+  display: none; }
+
+.radios input[type=radio]:checked + .radio {
+  background-color: #8ec63f;
+  color: #fff; }
+
+.AnyPagination .page-numbers {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd; }
+  .AnyPagination .page-numbers:first-child {
+    border-radius: 3px 0 0 3px; }
+  .AnyPagination .page-numbers:last-child {
+    border-radius: 0 3px 3px 0; }
+  .AnyPagination .page-numbers.current {
+    background: #337ab7;
+    color: #fff; }
+  .AnyPagination .page-numbers:focus {
+    outline: 0 !important;
+    box-shadow: none; }
+
+.AnyNotification {
+  padding: 10px;
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .AnyNotification .Message {
+    color: #34495e;
+    font-weight: bold;
+    font-size: 16px; }
+  .AnyNotification .Close {
+    color: #34495e;
+    cursor: pointer; }
+
+.anyguide-wrapper {
+  position: relative;
+  z-index: 1;
+  /* Chrome 10+, Saf5.1+ */
+  /* FF3.6+ */
+  /* IE10 */
+  /* Opera 11.10+ */
+  background: linear-gradient(90deg, #232526 10%, #414345 90%);
+  /* W3C */
+  -webkit-font-smoothing: antialiased; }
+  .anyguide-wrapper .anyguide-header img {
+    height: 50px; }
+  .anyguide-wrapper .anyguide-header h1 {
+    padding: 2.5em 0 1.11111em;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12); }
+    .anyguide-wrapper .anyguide-header h1 span {
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 20px;
+      display: block;
+      margin: 20px 0; }
+  .anyguide-wrapper .subhead {
+    position: relative;
+    margin-top: 100px;
+    padding-top: 2em;
+    padding: 4em 0 4.3em;
+    background: #f9f9f9; }
+    .anyguide-wrapper .subhead h2 {
+      padding-bottom: 20px;
+      text-align: center;
+      max-width: 460px;
+      color: #5d6d74;
+      font: 400 1.57143em/1.4em "proxima-nova", "Open Sans", Helvetica, sans-serif;
+      text-shadow: 0 1px 1px #fff;
+      margin: 0 auto; }
+      .anyguide-wrapper .subhead h2 span.new-head {
+        color: #81a844; }
+    .anyguide-wrapper .subhead:after {
+      content: '';
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      margin-bottom: -1px;
+      width: 100%;
+      height: 228px;
+      background: url("../images/clouds.svg") center bottom repeat-x;
+      pointer-events: none;
+      z-index: -1; }
+
+.snippets-table {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04); }
+  .snippets-table .anyguide-snippet td {
+    padding: 10px 10px 8px 14px;
+    line-height: 25px;
+    margin: 0;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1); }
+    .snippets-table .anyguide-snippet td i {
+      margin-right: 5px; }
+    .snippets-table .anyguide-snippet td .snippet-type {
+      color: #ccc;
+      margin-left: 10px; }
+    .snippets-table .anyguide-snippet td .snippet-actions {
+      float: right;
+      padding: 0 0 1px;
+      visibility: hidden; }
+      .snippets-table .anyguide-snippet td .snippet-actions .configure a {
+        margin-right: 5px;
+        color: #ccc;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 3px 10px;
+        font-size: 12px;
+        box-shadow: none; }
+        .snippets-table .anyguide-snippet td .snippet-actions .configure a:hover {
+          background: #ccc;
+          color: #fff; }
+      .snippets-table .anyguide-snippet td .snippet-actions .delete a {
+        color: #e74c3c;
+        border: 1px solid #e74c3c;
+        border-radius: 3px;
+        padding: 3px 10px;
+        font-size: 12px;
+        box-shadow: none; }
+        .snippets-table .anyguide-snippet td .snippet-actions .delete a:hover {
+          background: #e74c3c;
+          color: #fff; }
+    .snippets-table .anyguide-snippet td:hover .info a {
+      text-decoration: none; }
+    .snippets-table .anyguide-snippet td:hover .snippet-actions {
+      visibility: visible; }
+      .snippets-table .anyguide-snippet td:hover .snippet-actions a {
+        text-decoration: none; }
+
+.AnyguideWrapper {
+  margin-left: -20px; }
+
+.Header {
+  /* Chrome 10+, Saf5.1+ */
+  /* FF3.6+ */
+  /* IE10 */
+  /* Opera 11.10+ */
+  background: linear-gradient(90deg, #485563 10%, #29323c 90%);
+  /* W3C */ }
+
+.love {
+  background-image: linear-gradient(to bottom, #db4535 0%, #db4535 16.6%, #f06c07 16.7%, #f06c07 33.3%, #d4ca11 33.4%, #d4ca11 50%, #40c42b 50%, #40c42b 66.6%, #138187 66.7%, #138187 83.3%, #4831b0 83.4%, #4831b0 100%); }
+
+.Header .Navbar {
+  padding: 20px;
+  font-family: 'Titillium Web', sans-serif; }
+
+.Navbar ul li {
+  margin-bottom: -15px; }
+
+.love .Navbar ul li.navbtn a {
+  background: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold; }
+
+.Navbar ul li.navbtn a {
+  display: inline-block;
+  position: relative;
+  padding: 4px 12px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 3px;
+  text-decoration: none; }
+
+.Navbar ul li.navbtn a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.9); }
+
+.clouds-sm {
+  height: 70px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  background-image: linear-gradient(top, #81a844, #89b348); }
+
+.clouds-sm:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -1px;
+  width: 100%;
+  height: 137px;
+  background: url("../images/clouds.svg") center bottom repeat-x;
+  pointer-events: none;
+  z-index: 2; }
+
+/*==========*/
+.AnySection {
+  background: #f9f9f9;
+  min-height: 700px; }
+
+.SnippetsContainer {
+  position: relative;
+  padding: 25px 25px; }
+  .SnippetsContainer .SnippetList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0; }
+    .SnippetsContainer .SnippetList .IndividualSnippet {
+      position: relative;
+      background-color: #fff;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+      -webkit-border-radius: 3px;
+      -webkit-background-clip: padding-box;
+      -moz-border-radius: 3px;
+      -moz-background-clip: padding;
+      border-radius: 3px;
+      background-clip: padding-box;
+      margin-bottom: 8px;
+      padding: 0 15px;
+      vertical-align: top; }
+      .SnippetsContainer .SnippetList .IndividualSnippet .SnippetInfo {
+        height: 50px;
+        padding: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+        .SnippetsContainer .SnippetList .IndividualSnippet .SnippetInfo i {
+          width: 30px;
+          height: 30px;
+          padding: 7px;
+          border: 1px solid #ecf0f1;
+          border-radius: 3px;
+          background-color: #ecf0f1;
+          color: #95a5a6;
+          margin-right: 10px; }
+      .SnippetsContainer .SnippetList .IndividualSnippet .SnippetTitle {
+        line-height: 30px;
+        height: 50px;
+        padding: 10px; }
+        .SnippetsContainer .SnippetList .IndividualSnippet .SnippetTitle i {
+          color: #95a5a6; }
+        .SnippetsContainer .SnippetList .IndividualSnippet .SnippetTitle .divider {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 50px;
+          width: 1px;
+          background-color: #eee;
+          display: inline-block; }
+      .SnippetsContainer .SnippetList .IndividualSnippet .SnippetActions {
+        line-height: 30px;
+        height: 50px;
+        padding: 10px; }
+        .SnippetsContainer .SnippetList .IndividualSnippet .SnippetActions .Buttons {
+          color: #999;
+          font-size: 11px; }
+      .SnippetsContainer .SnippetList .IndividualSnippet .SnippetState {
+        position: absolute;
+        top: 13px;
+        right: -12px;
+        height: 24px;
+        width: 24px;
+        -webkit-border-radius: 50%;
+        -webkit-background-clip: padding-box;
+        -moz-border-radius: 50%;
+        -moz-background-clip: padding;
+        border-radius: 50%;
+        background-clip: padding-box;
+        background-color: #8ec63f;
+        text-align: center;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        border: 2px solid #fff; }
+        .SnippetsContainer .SnippetList .IndividualSnippet .SnippetState i {
+          font-size: 13px;
+          color: #fff;
+          line-height: 20px; }
+
+/* === Sidebar === */
+.Sidebar {
+  padding: 25px; }
+
+.anyguide-icon {
+  background-image: url('../images/button16.png'); }
