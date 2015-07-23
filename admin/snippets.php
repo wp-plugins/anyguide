@@ -168,7 +168,7 @@
 									<li class="text-center" style="margin-bottom: 10px;">
 										<h3 class="text-muted" style="font-family: 'Titillium Web', sans-serif;">You have no Snippets yet.</h3>
 										<hr>
-										<a href="http://localhost/blog/wp-admin/admin.php?page=anyguide-manage&amp;action=snippet-add" class="add-new-snippet-button">
+										<a href="<?php echo admin_url('admin.php?page=anyguide-manage&action=snippet-add');?>" class="add-new-snippet-button">
 											<i class="fa fa-plus-circle"></i> Create a  Snippet
 										</a>
 									</li>

@@ -9,7 +9,7 @@
 * Plugin Name:       Anyguide 
 * Plugin URI:        http://www.anyguide.com
 * Description:       This plugin allows you to integrate the Anyguide booking solution into your Wordpress site.
-* Version:           1.0
+* Version:           1.3
 * Author:            anyguide.com
 * Author URI:        http://anyguide.com/
 * Text Domain:       anyguide
